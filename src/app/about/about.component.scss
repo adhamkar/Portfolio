@@ -1,0 +1,100 @@
+ .section{
+    display: flex;
+    justify-content: center;
+   
+} 
+#about{
+    padding: 20px 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.heading h2{
+    color: #333333;
+    
+}
+.heading h2 span{
+    color: #FFC107;
+}
+.line{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 2px;
+    background-color: #FFC107; /* Primary Yellow Color */
+    margin-top: 5px;
+}
+.subtitle {
+    font-size: 1.5rem;
+background: linear-gradient(90deg, rgba(222,173,25,1) 0%, rgba(171,136,30,1) 29%, rgba(19,17,17,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 5px; 
+}
+.aboutMe{
+    font-size: 1.1rem;
+    color: #333333;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutMe h2{
+    margin-right: 75rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.row.info p{
+   /*  margin-top: 20px;
+    font-size: 1.1rem;
+    color: black;
+    font-family: Ubuntu, sans-serif;
+    max-width: 550px;
+    text-align: justify; */
+    
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+    font-size: 1.4rem;
+    color: black;
+    font-family: Ubuntu, sans-serif;
+    max-width: 530px;
+    text-align: justify;
+    flex: 1;
+}
+.blakscreen{
+     background-color: #ffd865;
+     //border: 1px solid #FFC107;
+    width: 18.5rem;
+    height: 21.8rem;
+    margin-left: 25rem;
+    border-radius: 5px;
+}
+
+.row.info {
+    display: flex;
+    align-items: flex-start;
+  
+}
+
+.pdp{
+    border-radius:7px;
+    margin-top: 12px;
+    margin-left: 12px;
+    height: 21.8rem;
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+   gap: 20px;
+}
